@@ -1,0 +1,22 @@
+Update this agentic skill about HEALING, TREATMENTS, PRACTICES AND THEURGY with readable markdown that agents can use to parse. Always abide by this format: https://developers.openai.com/codex/skills
+
+Parse the ENTIRE file packages/sourcs/vm_michael_notes_of_natural_medicine.txt and divide it into its passages and paragraphs. You may use sub-agents for this. Commit each segment through your reasoning in order to classify between four broad categories:
+
+    1. Generic requirements of a healer, healing, classifications, tables go into /SKILL.md
+        Summarize these skills
+    2. All treatments of sicknesses, methods, receipes go into /references/TREATMENTS.md
+        Do not hallicinate or add things! You must be VERY precises, this is a serious matter since these are medicines!
+        For EACH treatment you add section in the markdown. Include the following:
+            - Name of the treatment and sicknesses it can treat
+            - Quick summary of the treatment
+            - FULL Ingredients, their quantities, the whole receipe with the EXACT method of preparation and EXACT method of application            
+    3. All non-theurgical practices, techniques and prayers go into /references/PRACTICES.md
+        For each practice you add a section in the markdown. Include the following:
+            - Name and purpose of the practice            
+            - EXACT method of execution
+    4. All theurgical and magical practices go into /references/THEURGY.md
+        For each practice you add a section in the markdown. Include the following:
+            - Name and purpose of the practice
+            - The practices can sometimes be long, do NOT summarize them, include the FULL, EXACT method of execution.
+
+As a second step update the references and sources to the existing markdowns with the new book/source.

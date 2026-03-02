@@ -1,0 +1,32 @@
+Create an agentic skill about MAGIC with readable markdown that agents can use to parse. Use this format: https://developers.openai.com/codex/skills
+
+- Parse the ENTIRE file packages/sourcs/vm_samael_manual_of_practical_magic.txt and divide it into its chapters.
+- Each chapter is wrapped into two three-dash pairs (--- ... ---), which act as dividers
+- Each chapter may contain multiple segments which are seperated by a title and empty lines before and after the title
+
+Then
+
+1. Create a file references/MAGIC.md with a Table of contents which matches the chapters and segments (if present)
+
+    ## Table of Contents
+
+    - [ALEPH THE MAGICIAN](#aleph-the-magician)
+    - [BETH THE PRIESTESS](#beth-the-priestess)
+    - [GIMEL THE EMPRESS — CLAIRAUDIENCE / TELEPATHY / CLUE TO REMEMBER PAST LIVES / THE SPLENIC CHAKRA / THE HEPATIC CHAKRA / POLY VISION](#gimel-the-empress)
+    ...
+
+2. For each chapter create a heading and sub headings for the segments
+
+    <a name="gimel-the-empress"></a>
+
+    ## GIMEL THE EMPRESS — CLAIRAUDIENCE / TELEPATHY / CLUE TO REMEMBER PAST LIVES / THE SPLENIC CHAKRA / THE HEPATIC CHAKRA / POLY VISION
+
+    ...
+
+    ### CLAIRAUDIENCE
+
+    ...
+
+    ### TELEPATHY
+
+3. Fill in the content. You may summarize certain passages but DO ABSOLUTELY not loose meaning. The practices, invocations, prayers and methods you do not shorten in any way. Do not add things or change meaning, stick 100% to the source material.

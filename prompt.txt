@@ -1,0 +1,17 @@
+Create an agentic skill about HEALING, TREATMENTS with readable markdown that agents can use to parse. Use this format: https://developers.openai.com/codex/skills
+
+Parse the ENTIRE file packages/sourcs/occult_medicine_raw.txt and divide it into its passages and paragraphs. You may use sub-agents for this. Commit each segment through your reasoning in order to classify between three broad categories:
+
+    1. Generic requirements of a healer and healing go into /SKILL.md
+        Summarize these skills
+        Also add a TOC with links to the skills in /references
+    2. All treatments of sicknesses, methods, receipes go into /references/TREATMENTS.md
+        Do not hallicinate or add things! You must be precises, this is a serious matter since these are medicines!
+        For EACH treatment you add section in the markdown. Include the following:
+            - Name of the treatment and sicknesses it can treat
+            - Quick summary of the treatment
+            - FULL Ingredients, their quantities, the whole receipe with the EXACT method of preparation and EXACT method of application            
+    3. All practices, technique and prayers go into /references/PRACTICES.md
+        For each practice you add a section in the markdown. Include the following:
+            - Name and purpose of the practice            
+            - EXACT method of execution
