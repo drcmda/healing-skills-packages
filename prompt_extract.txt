@@ -1,0 +1,1 @@
+take max_heindel_message_of_the_stars.pdf and turn to plain text with a tool. strip all page breaks if they occur. restore natural flow of text and paragraphs according to punctuation if there were artificial line breaks. divide each chapter with three dashes --- and new lines above and below it.
